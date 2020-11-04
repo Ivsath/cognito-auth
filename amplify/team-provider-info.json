@@ -10,6 +10,11 @@
       "StackName": "amplify-cognitoauth-dev-01554",
       "StackId": "arn:aws:cloudformation:us-west-2:209038788505:stack/amplify-cognitoauth-dev-01554/33cc4f90-1e65-11eb-82a6-0a9b7a0ac895",
       "AmplifyAppId": "dciq90frocgv6"
+    },
+    "categories": {
+      "auth": {
+        "cognitoauth3a75d9e3": {}
+      }
     }
   }
 }
