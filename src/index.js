@@ -1,12 +1,18 @@
+import './styles/index.css'
+
+import Amplify from 'aws-amplify'
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './styles/index.css'
-import App from './App'
+
+import config from './aws-exports'
+import Router from './components/Router'
 import reportWebVitals from './reportWebVitals'
+
+Amplify.configure(config)
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router />
   </React.StrictMode>,
   document.getElementById('root'),
 )
