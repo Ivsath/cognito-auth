@@ -5,7 +5,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 import config from './aws-exports'
-import Router from './components/Router'
+import Router from './Router'
 import reportWebVitals from './reportWebVitals'
 
 Amplify.configure(config)
