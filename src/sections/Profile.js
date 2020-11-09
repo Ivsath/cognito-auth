@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Auth } from 'aws-amplify'
 import { AmplifyAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 
-import Container from './Container'
+import Container from '../components/Container'
 
 export default function Profile() {
   const [user, setUser] = useState({})

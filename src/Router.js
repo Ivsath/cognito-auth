@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react'
 import { HashRouter, Switch, Route } from 'react-router-dom'
 
 import Nav from './components/Nav'
-import Public from './components/Public'
-import Profile from './components/Profile'
-import Protected from './components/Protected'
+import Public from './sections/Public'
+import Profile from './sections/Profile'
+import Protected from './sections/Protected'
 
 const Router = () => {
   const [current, setCurrent] = useState('home')

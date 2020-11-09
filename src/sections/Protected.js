@@ -1,4 +1,4 @@
-import Container from './Container'
+import Container from '../components/Container'
 import protectedRoute from '../hooks/protectedRoute'
 
 function Protected(props) {
